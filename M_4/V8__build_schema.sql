@@ -50,9 +50,8 @@ CREATE TABLE Package (
   FOREIGN KEY (Recipient) REFERENCES Client(AccountNumber)
 );
 
-
 INSERT INTO Client VALUES(1, 'Zapp Brannigan');
-INSERT INTO Client VALUES(2, 'Al Gore's Head');
+INSERT INTO Client VALUES(2, 'Al Gore Head');
 INSERT INTO Client VALUES(3, 'Barbados Slim');
 INSERT INTO Client VALUES(4, 'Ogden Wernstrom');
 INSERT INTO Client VALUES(5, 'Leo Wong');
